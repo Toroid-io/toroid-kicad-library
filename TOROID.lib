@@ -217,4 +217,18 @@ X D 8 300 200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# fiducial
+#
+DEF fiducial fid 0 40 Y Y 1 F N
+F0 "fid" 10 120 60 H V C CNN
+F1 "fiducial" 0 -110 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 0 0 36 0 1 0 N
+C 0 0 64 0 1 0 N
+C 0 0 72 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 #End Library
