@@ -1,15 +1,37 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP INA333
+D Micro-Power (50μA), Zerø-Drift, Rail-to-Rail Out Instrumentation Amplifier
+K Instrumentation OpAmp
+F http://www.ti.com/lit/ds/symlink/ina333.pdf
+$ENDCMP
+#
 $CMP LD1117V33
 D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
 K REGULATOR LDO 3.3V
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
 $ENDCMP
 #
+$CMP LM27762
+D Low-Noise Positive and Negative Output Integrated Charge Pump Plus LDO
+F http://www.ti.com/lit/ds/symlink/lm27762.pdf
+$ENDCMP
+#
 $CMP LM7805_toroid
 D Linear Regulator +5V
 K POWER REGUL
 F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MT29F4G01ADAGDWB
+D 4Gb 3.3V x1, x2, x4: SPI NAND Flash Memory
+K SPI, Flash, Nand
+$ENDCMP
+#
+$CMP TLV2362
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
 $ENDCMP
 #
 #End Doc Library
