@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AZ1117IH-ADJ
+D LOW DROPOUT LINEAR REGULATOR WITH INDUSTRIAL TEMPERATURE RANGE
+K LDO regulator
+F https://www.diodes.com/assets/Datasheets/AZ1117I.pdf
+$ENDCMP
+#
 $CMP INA333
 D Micro-Power (50μA), Zerø-Drift, Rail-to-Rail Out Instrumentation Amplifier
 K Instrumentation OpAmp
@@ -28,10 +34,33 @@ D 4Gb 3.3V x1, x2, x4: SPI NAND Flash Memory
 K SPI, Flash, Nand
 $ENDCMP
 #
+$CMP Q_TRIAC_GAA
+D triode for alternating current (TRIAC)
+K triode for alternating current TRIAC
+$ENDCMP
+#
+$CMP SRBV141201
+D rotary switch with 4 positions
+K rotary switch
+F http://www.alps.com/prod/info/E/HTML/Switch/Rotary/SRBV/SRBV141201.html
+$ENDCMP
+#
+$CMP SW_Rotary4
+D rotary switch with 4 positions
+K rotary switch
+F http://www.alps.com/prod/info/E/HTML/Switch/Rotary/SRBV/SRBV141201.html
+$ENDCMP
+#
 $CMP TLV2362
 D Dual Op amp (low power)
 K ampliop
 F ns/lm158.pdf
+$ENDCMP
+#
+$CMP iCE40UL-1K-16WLCP
+D iCE40 UltraLite FPGA
+K FPGA Lattice iCE40
+F http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/iCE/iCE40UltraLiteDataSheetDS1050.pdf
 $ENDCMP
 #
 #End Doc Library
