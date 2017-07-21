@@ -6,6 +6,12 @@ K LDO regulator
 F https://www.diodes.com/assets/Datasheets/AZ1117I.pdf
 $ENDCMP
 #
+$CMP ICE5LP4K-SWG36ITR1
+D Ultra-low power FPGA and sensor manager
+K FPGA, iCE, lattice
+F http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/iCE/iCE40UltraFamilyDataSheet.pdf
+$ENDCMP
+#
 $CMP INA333
 D Micro-Power (50μA), Zerø-Drift, Rail-to-Rail Out Instrumentation Amplifier
 K Instrumentation OpAmp
@@ -32,6 +38,11 @@ $ENDCMP
 $CMP MT29F4G01ADAGDWB
 D 4Gb 3.3V x1, x2, x4: SPI NAND Flash Memory
 K SPI, Flash, Nand
+$ENDCMP
+#
+$CMP OKL-T/3-W12N-C
+D Programmable Output 3-Amp iLGA SMT PoLs
+F http://power.murata.com/data/power/okl-t3-w12.pdf
 $ENDCMP
 #
 $CMP Q_TRIAC_GAA
