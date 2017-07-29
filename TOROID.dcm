@@ -6,6 +6,10 @@ K LDO regulator
 F https://www.diodes.com/assets/Datasheets/AZ1117I.pdf
 $ENDCMP
 #
+$CMP CD74HC4511
+D BCD to 7 segment decoder
+$ENDCMP
+#
 $CMP ICE5LP4K-SWG36ITR1
 D Ultra-low power FPGA and sensor manager
 K FPGA, iCE, lattice
@@ -33,6 +37,10 @@ $CMP LM7805_toroid
 D Linear Regulator +5V
 K POWER REGUL
 F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LTD-2601G
+D Dual 7-segment LED display
 $ENDCMP
 #
 $CMP MT29F4G01ADAGDWB
