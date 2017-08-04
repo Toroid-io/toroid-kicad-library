@@ -76,6 +76,10 @@ K ampliop
 F ns/lm158.pdf
 $ENDCMP
 #
+$CMP TS3001x
+D High Efficiency 1A/2A/3A  Buck DC/DC Converter
+$ENDCMP
+#
 $CMP iCE40UL-1K-16WLCP
 D iCE40 UltraLite FPGA
 K FPGA Lattice iCE40
