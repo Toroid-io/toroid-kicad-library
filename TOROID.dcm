@@ -10,6 +10,12 @@ $CMP CD74HC4511
 D BCD to 7 segment decoder
 $ENDCMP
 #
+$CMP H11AA1
+D Optocoupler, Phototransistor Output, AC Input, with Base Connection
+K opto triac
+F https://www.vishay.com/docs/83608/h11aa1.pdf
+$ENDCMP
+#
 $CMP ICE5LP4K-SWG36ITR1
 D Ultra-low power FPGA and sensor manager
 K FPGA, iCE, lattice
