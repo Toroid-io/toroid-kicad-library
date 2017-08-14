@@ -47,6 +47,7 @@ $ENDCMP
 #
 $CMP LTD-2601G
 D Dual 7-segment LED display
+F http://www.mouser.com/ds/2/239/S_110_D2601G-474295.pdf
 $ENDCMP
 #
 $CMP MT29F4G01ADAGDWB
@@ -84,6 +85,12 @@ $ENDCMP
 #
 $CMP TS3001x
 D High Efficiency 1A/2A/3A  Buck DC/DC Converter
+$ENDCMP
+#
+$CMP TS972IQT
+D Output rail-to-rail very low noise operational amplifier
+K op amp
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/24/1a/c3/82/35/1f/45/a0/CD00001508/files/CD00001508.pdf/jcr:content/translations/en.CD00001508.pdf
 $ENDCMP
 #
 $CMP iCE40UL-1K-16WLCP
