@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 23LCRAM
+D External RAM with SPI interface in 8-pin package
+K RAM memory SPI serial
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25142A.pdf
+$ENDCMP
+#
 $CMP AZ1117IH-ADJ
 D LOW DROPOUT LINEAR REGULATOR WITH INDUSTRIAL TEMPERATURE RANGE
 K LDO regulator
