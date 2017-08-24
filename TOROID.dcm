@@ -77,6 +77,12 @@ K rotary switch
 F http://www.alps.com/prod/info/E/HTML/Switch/Rotary/SRBV/SRBV141201.html
 $ENDCMP
 #
+$CMP SSM6P41FE
+D Field Effect Transistor Silicon P Channel MOS Type(U-MOS-V) 
+K mosfet p dual
+F file:///tmp/mozilla_andres0/SSM6P41FE_datasheet_en_20140301.pdf
+$ENDCMP
+#
 $CMP SW_Rotary4
 D rotary switch with 4 positions
 K rotary switch
