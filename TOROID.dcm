@@ -34,6 +34,12 @@ K Instrumentation OpAmp
 F http://www.ti.com/lit/ds/symlink/ina333.pdf
 $ENDCMP
 #
+$CMP LCD-S2X1C50TR
+D LCD 2.5 DIGIT .50" REFLECTIVE TN
+K lcd
+F http://www.lumex.com/content/files/ProductAttachment/LCD-S2X1C50TR.pdf
+$ENDCMP
+#
 $CMP LD1117V33
 D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
 K REGULATOR LDO 3.3V
@@ -78,7 +84,7 @@ F http://www.alps.com/prod/info/E/HTML/Switch/Rotary/SRBV/SRBV141201.html
 $ENDCMP
 #
 $CMP SSM6P41FE
-D Field Effect Transistor Silicon P Channel MOS Type(U-MOS-V) 
+D Field Effect Transistor Silicon P Channel MOS Type(U-MOS-V)
 K mosfet p dual
 F file:///tmp/mozilla_andres0/SSM6P41FE_datasheet_en_20140301.pdf
 $ENDCMP
