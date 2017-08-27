@@ -6,6 +6,12 @@ K RAM memory SPI serial
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25142A.pdf
 $ENDCMP
 #
+$CMP ATtiny1616
+D 8-bit AVR Microcontroller
+K Microcontroller avr
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001893B.pdf
+$ENDCMP
+#
 $CMP AZ1117IH-ADJ
 D LOW DROPOUT LINEAR REGULATOR WITH INDUSTRIAL TEMPERATURE RANGE
 K LDO regulator
@@ -40,6 +46,12 @@ K lcd
 F http://www.lumex.com/content/files/ProductAttachment/LCD-S2X1C50TR.pdf
 $ENDCMP
 #
+$CMP LCD-S301C31TR
+D LCD 3 DIGIT .31" REFLECTIVE TN
+K LCD
+F http://www.lumex.com/content/files/ProductAttachment/LCD-S301C31TR.pdf
+$ENDCMP
+#
 $CMP LD1117V33
 D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
 K REGULATOR LDO 3.3V
@@ -70,6 +82,12 @@ $ENDCMP
 $CMP OKL-T/3-W12N-C
 D Programmable Output 3-Amp iLGA SMT PoLs
 F http://power.murata.com/data/power/okl-t3-w12.pdf
+$ENDCMP
+#
+$CMP PCF8551ATT/AJ
+D Universal 36 × 4 LCD segment driver
+K LCD Driver
+F www.nxp.com/docs/en/data-sheet/PCF8551.pdf
 $ENDCMP
 #
 $CMP Q_TRIAC_GAA
