@@ -107,6 +107,12 @@ K mosfet p dual
 F file:///tmp/mozilla_andres0/SSM6P41FE_datasheet_en_20140301.pdf
 $ENDCMP
 #
+$CMP STL58N3LLH5
+D Automotive-grade N-channel Power MOSFET in a PowerFLAT™ 5x6 package
+K MOSFET N-Channel
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/5a/f7/0f/e4/11/08/42/2f/DM00128027.pdf/files/DM00128027.pdf/jcr:content/translations/en.DM00128027.pdf
+$ENDCMP
+#
 $CMP SW_Rotary4
 D rotary switch with 4 positions
 K rotary switch
