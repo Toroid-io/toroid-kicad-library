@@ -79,6 +79,12 @@ D 4Gb 3.3V x1, x2, x4: SPI NAND Flash Memory
 K SPI, Flash, Nand
 $ENDCMP
 #
+$CMP NRF51x22
+D Multiprotocol Bluetooth low energy/2.4 GHz RF System on Chip
+K BLE SoC
+F file:///tmp/mozilla_andres0/nRF51822_PS%20v3.1.pdf
+$ENDCMP
+#
 $CMP OKL-T/3-W12N-C
 D Programmable Output 3-Amp iLGA SMT PoLs
 F http://power.murata.com/data/power/okl-t3-w12.pdf
@@ -127,12 +133,18 @@ $ENDCMP
 #
 $CMP TS3001x
 D High Efficiency 1A/2A/3A  Buck DC/DC Converter
+F http://www.semtech.com/images/datasheet/ts30011_12_13.pdf
 $ENDCMP
 #
 $CMP TS972IQT
 D Output rail-to-rail very low noise operational amplifier
 K op amp
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/24/1a/c3/82/35/1f/45/a0/CD00001508/files/CD00001508.pdf/jcr:content/translations/en.CD00001508.pdf
+$ENDCMP
+#
+$CMP VRAE-10E1A0
+D NON-ISOLATED DC/DC CONVERTER
+F https://www.belfuse.com/resources/PowerSolutions/VRAE10E1A0Series/VRAE-10E1A0_DS_J_122815.pdf
 $ENDCMP
 #
 $CMP iCE40UL-1K-16WLCP
