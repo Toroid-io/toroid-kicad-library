@@ -6,6 +6,12 @@ K RAM memory SPI serial
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25142A.pdf
 $ENDCMP
 #
+$CMP AP2114H-X.X
+D 1A LOW NOISE CMOS LDO REGULATOR
+K LDO
+F https://www.diodes.com/assets/Datasheets/AP2114.pdf
+$ENDCMP
+#
 $CMP ATtiny1616
 D 8-bit AVR Microcontroller
 K Microcontroller avr
