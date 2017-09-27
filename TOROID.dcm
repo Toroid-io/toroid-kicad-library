@@ -12,6 +12,12 @@ K LDO
 F https://www.diodes.com/assets/Datasheets/AP2114.pdf
 $ENDCMP
 #
+$CMP AP2114HA-X.X
+D 1A LOW NOISE CMOS LDO REGULATOR
+K LDO
+F https://www.diodes.com/assets/Datasheets/AP2114.pdf
+$ENDCMP
+#
 $CMP ATtiny1616
 D 8-bit AVR Microcontroller
 K Microcontroller avr
@@ -26,6 +32,11 @@ $ENDCMP
 #
 $CMP CD74HC4511
 D BCD to 7 segment decoder
+$ENDCMP
+#
+$CMP DRV8848
+D Dual H-Bridge Motor Driver
+F http://www.ti.com/lit/ds/symlink/drv8848.pdf
 $ENDCMP
 #
 $CMP H11AA1
@@ -88,7 +99,7 @@ $ENDCMP
 $CMP NRF51x22
 D Multiprotocol Bluetooth low energy/2.4 GHz RF System on Chip
 K BLE SoC
-F file:///tmp/mozilla_andres0/nRF51822_PS%20v3.1.pdf
+F www.nordicsemi.com/eng/content/download/13358/214991/file/nRF51822_PS v3.1.pdf
 $ENDCMP
 #
 $CMP OKL-T/3-W12N-C
