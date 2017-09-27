@@ -125,10 +125,22 @@ K MOSFET N-Channel
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/5a/f7/0f/e4/11/08/42/2f/DM00128027.pdf/files/DM00128027.pdf/jcr:content/translations/en.DM00128027.pdf
 $ENDCMP
 #
+$CMP STL60N3LLH5
+D N-channel 30 V, 0.0063 Ω, 17 A PowerFLAT™ (5x6) STripFET™ V Power MOSFET
+K MOSFET N-Channel
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/60/fc/d9/07/f0/a9/4a/a1/CD00268288.pdf/files/CD00268288.pdf/jcr:content/translations/en.CD00268288.pdf
+$ENDCMP
+#
 $CMP SW_Rotary4
 D rotary switch with 4 positions
 K rotary switch
 F http://www.alps.com/prod/info/E/HTML/Switch/Rotary/SRBV/SRBV141201.html
+$ENDCMP
+#
+$CMP TC445x
+D High-Speed MOSFET Driver
+K MOSFET Driver
+F http://ww1.microchip.com/downloads/en/devicedoc/21987a.pdf
 $ENDCMP
 #
 $CMP TLV2362
