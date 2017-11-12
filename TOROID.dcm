@@ -160,6 +160,10 @@ K ampliop
 F ns/lm158.pdf
 $ENDCMP
 #
+$CMP TPW4R50ANH
+D MOSFET Toshiba Vds=100V Rds=3,7mohm
+$ENDCMP
+#
 $CMP TS3001x
 D High Efficiency 1A/2A/3A  Buck DC/DC Converter
 F http://www.semtech.com/images/datasheet/ts30011_12_13.pdf
