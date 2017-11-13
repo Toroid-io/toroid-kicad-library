@@ -18,6 +18,11 @@ K LDO
 F https://www.diodes.com/assets/Datasheets/AP2114.pdf
 $ENDCMP
 #
+$CMP AP3512EMTR-G1
+D 2A SYNCHRONOUS DC-DC BUCK CONVERTER
+K Switching, Buck
+$ENDCMP
+#
 $CMP ATtiny1616
 D 8-bit AVR Microcontroller
 K Microcontroller avr
@@ -89,6 +94,16 @@ $ENDCMP
 $CMP LTD-2601G
 D Dual 7-segment LED display
 F http://www.mouser.com/ds/2/239/S_110_D2601G-474295.pdf
+$ENDCMP
+#
+$CMP MIC44F18YMME
+D Gate Drivers 6A High Speed MOSFET Drivers N-Channel optimized
+K Driver
+$ENDCMP
+#
+$CMP MIC44F19YMME
+D Gate Drivers 6A High Speed MOSFET Drivers
+K Driver
 $ENDCMP
 #
 $CMP MT29F4G01ADAGDWB
