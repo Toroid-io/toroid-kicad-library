@@ -117,15 +117,20 @@ K BLE SoC
 F www.nordicsemi.com/eng/content/download/13358/214991/file/nRF51822_PS v3.1.pdf
 $ENDCMP
 #
-$CMP OKL-T/3-W12N-C
+$CMP OKL-T_3-W12N-C
 D Programmable Output 3-Amp iLGA SMT PoLs
 F http://power.murata.com/data/power/okl-t3-w12.pdf
 $ENDCMP
 #
-$CMP PCF8551ATT/AJ
+$CMP PCF8551ATT_AJ
 D Universal 36 × 4 LCD segment driver
 K LCD Driver
 F www.nxp.com/docs/en/data-sheet/PCF8551.pdf
+$ENDCMP
+#
+$CMP Q_TRIAC_A1A2G
+D triode for alternating current (TRIAC)
+K triode for alternating current TRIAC
 $ENDCMP
 #
 $CMP Q_TRIAC_GAA
@@ -137,6 +142,12 @@ $CMP SRBV141201
 D rotary switch with 4 positions
 K rotary switch
 F http://www.alps.com/prod/info/E/HTML/Switch/Rotary/SRBV/SRBV141201.html
+$ENDCMP
+#
+$CMP SSM6N43FU
+D Field-Effect Transistor Silicon N Channel MOS Type
+K mosfet n dual
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=584&prodName=SSM6P41FE
 $ENDCMP
 #
 $CMP SSM6P41FE
