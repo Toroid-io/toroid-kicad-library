@@ -106,6 +106,12 @@ D Gate Drivers 6A High Speed MOSFET Drivers
 K Driver
 $ENDCMP
 #
+$CMP MIC841
+D Comparator with 1.25% Reference and Adjustable Hysteresis
+K MIC841L/H/N
+F https://ar.mouser.com/datasheet/2/268/mic841-779193.pdf
+$ENDCMP
+#
 $CMP MT29F4G01ADAGDWB
 D 4Gb 3.3V x1, x2, x4: SPI NAND Flash Memory
 K SPI, Flash, Nand
