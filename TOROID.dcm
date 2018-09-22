@@ -39,6 +39,11 @@ $CMP CD74HC4511
 D BCD to 7 segment decoder
 $ENDCMP
 #
+$CMP DMP3013SFV
+D 30V P-CHANNEL ENHANCEMENT MODE MOSFET
+F https://ar.mouser.com/datasheet/2/115/DMP3013SFV-1274662.pdf
+$ENDCMP
+#
 $CMP DRV8848
 D Dual H-Bridge Motor Driver
 F http://www.ti.com/lit/ds/symlink/drv8848.pdf
@@ -121,6 +126,12 @@ $CMP NRF51x22
 D Multiprotocol Bluetooth low energy/2.4 GHz RF System on Chip
 K BLE SoC
 F www.nordicsemi.com/eng/content/download/13358/214991/file/nRF51822_PS v3.1.pdf
+$ENDCMP
+#
+$CMP NVMFS5C677NL
+D 60 V, 15.0 m, 36 A, Single N−Channel
+K Silicon N-channel MOS
+F https://ar.mouser.com/datasheet/2/308/NVMFS5C677NL-D-1324684.pdf
 $ENDCMP
 #
 $CMP OKL-T_3-W12N-C
