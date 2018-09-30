@@ -35,6 +35,10 @@ K LDO regulator
 F https://www.diodes.com/assets/Datasheets/AZ1117I.pdf
 $ENDCMP
 #
+$CMP BC807DS
+D PNP general purpose double transistor, 500mA, 45V
+$ENDCMP
+#
 $CMP CD74HC4511
 D BCD to 7 segment decoder
 $ENDCMP
