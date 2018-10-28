@@ -71,6 +71,10 @@ K Instrumentation OpAmp
 F http://www.ti.com/lit/ds/symlink/ina333.pdf
 $ENDCMP
 #
+$CMP Knob
+D Knob
+$ENDCMP
+#
 $CMP LCD-S2X1C50TR
 D LCD 2.5 DIGIT .50" REFLECTIVE TN
 K lcd
